@@ -1,0 +1,104 @@
+
+body {
+    
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-position: bottom center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.iphone {
+    background-image: url('../imagens/frame-iphone.png');
+    width: 311px;
+    height: 627px;
+    margin: auto;
+    background-position: center center;
+    position: absolute;
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 5%);
+    
+}
+
+iframe {
+    width: 268px;
+    height: 475px;
+    margin: auto;
+    background-position: center center;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 23%);
+
+}
+
+
+.icones {
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+
+}
+
+
+.icone-home {
+    background-image: url('../imagens/logo-home.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.icone-youtube {
+    background-image: url('../imagens/logo-youtube.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.icone-git {
+    background-image: url('../imagens/logo-github.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.icone-instagram {
+    background-image: url('../imagens/logo-instagram.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.icone-twitter {
+    background-image: url('../imagens/logo-twitter.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.icone-facebook {
+    background-image: url('../imagens/logo-facebook.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
