@@ -39,18 +39,6 @@ iframe#tela {
 
 }
 
-/* iframe {
-    width: 268px;
-    height: 475px;
-    margin: auto;
-    background-position: center center;
-    position: absolute;
-    background-size: cover;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-} */
 
 
 .icones {
@@ -59,6 +47,21 @@ iframe#tela {
     position: absolute;
     left: 93%;
     top: 5%;
+
+}
+
+ul > a > li:hover{
+    border: 2px solid rgba(255, 255, 255, 0.631);
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.419);
+    box-sizing: border-box;
+    transition: 1s;
+
+
+}
+
+ul > a > li {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.419);
 
 }
 
